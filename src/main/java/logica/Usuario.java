@@ -2,7 +2,7 @@
 package logica;
 import javax.persistence.*;
 @Entity
-@Table(name = "usuario") // El nombre de la tabla en tu base de datos
+@Table(name = "usuario") 
 public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

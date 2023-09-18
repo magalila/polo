@@ -20,7 +20,7 @@ public class ConexionBD {
         } catch (SQLException e) {
             throw new SQLException("Error al conectarse a la base de datos.", e);
         } finally {
-            // Cierra la conexión en caso de excepción o cuando hayas terminado de usarla.
+          
             if (conexion != null) {
                 conexion.close();
             }

@@ -1,4 +1,4 @@
-package spring; // Asegúrate de que el paquete sea el correcto
+package spring; 
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
@@ -9,5 +9,5 @@ import api.entity.Usuario;
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
     Usuario findByNombreUsuarioAndContrasena(String nombreUsuario, String contrasena);
-    // Puedes definir métodos de consulta personalizados aquí si es necesario
+  
 }
